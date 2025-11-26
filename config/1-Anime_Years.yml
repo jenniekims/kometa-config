@@ -4,7 +4,7 @@ templates:
     sync_mode: sync
     sort_title: zz_<<collection_name>>
     summary: Best animes of the decade with a minimum of 7.9 MyAnimeList Rating.
-    visible_library: true
+    visible_library: false
 
   Year:
     collection_order: custom
@@ -328,3 +328,4 @@ collections:
       starting_only: false
       sort_by: score
     file_poster: config/posters/Best of 2024.png
+
