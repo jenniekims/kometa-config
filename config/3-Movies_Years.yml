@@ -14,7 +14,7 @@ templates:
     sync_mode: sync
     sort_title: zzz_<<collection_name>>
     summary: Best movies of the decade with a minimum of 7.0 IMDb Rating.
-    visible_library: true
+    visible_library: false
 
   Year:
     smart_label: audience_rating.desc
@@ -376,3 +376,4 @@ collections:
       all:
         year: 2024
         audience_rating.gte: 7.0
+
