@@ -6,7 +6,7 @@ templates:
   Genre:
     sort_title: +01_<<collection_name>>
     smart_label: random
-    visible_library: true
+    visible_library: false
     sync_mode: sync
 
   Subgenre:
@@ -18,7 +18,7 @@ templates:
   Subgenre True:
     sort_title: <<collection_name>>
     smart_label: random
-    visible_library: true
+    visible_library: false
     sync_mode: sync
 
 # Genres from Anilist with a limit of 600 per collection
@@ -1599,3 +1599,4 @@ collections:
       limit: 500
     file_poster: config/posters/Zombie Anime.png
     summary: Animes with zombies in them.
+
