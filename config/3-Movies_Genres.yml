@@ -4,12 +4,12 @@
 
 templates:
   Genre:
-    visible_library: true
+    visible_library: false
     sort_title: +++++_<<collection_name>>
     sync_mode: sync
 
   Subgenre:
-    visible_library: true
+    visible_library: false
     sort_title: <<collection_name>>
     sync_mode: sync
     smart_label: random
@@ -21,7 +21,7 @@ templates:
     smart_label: random
 
   Subgenre Other:
-    visible_library: true
+    visible_library: false
     sort_title: <<collection_name>>
     sync_mode: sync
 
@@ -1305,3 +1305,4 @@ collections:
     plex_search:
       any:
         audio_language: es
+
