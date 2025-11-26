@@ -8,7 +8,7 @@ templates:
     sync_mode: sync
     sort_title: zzzz_<<collection_name>>
     summary: Best shows of the decade with a minimum of 7.8 IMDb Rating.
-    visible_library: true
+    visible_library: false
 
   Year:
     smart_label: audience_rating.desc
@@ -298,3 +298,4 @@ collections:
       all:
         year: 2024
         audience_rating.gte: 7.8
+
