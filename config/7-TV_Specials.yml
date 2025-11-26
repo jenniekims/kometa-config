@@ -11,7 +11,7 @@ templates:
     smart_label: random
     sync_mode: sync
     sort_title: zz__<<collection_name>>
-    visible_library: true
+    visible_library: false
 
   Special Other:
     smart_label: random
@@ -22,7 +22,7 @@ templates:
   Special Smart:
     sync_mode: sync
     sort_title: zz__<<collection_name>>
-    visible_library: true
+    visible_library: false
 
   Special Smart Other:
     sync_mode: sync
@@ -211,3 +211,4 @@ collections:
   #   sort_title: zzzzzzzz_1-5/10
   #   file_poster: config/posters/1-5.png
   #   trakt_list:
+
